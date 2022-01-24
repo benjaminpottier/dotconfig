@@ -427,14 +427,14 @@ cursor:
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
-  program: /bin/zsh
+  program: /opt/homebrew/bin/tmux
   args:
-    - -l
-    - -c
-    - "tmux new -As0"
+   - new
+   - -A
+   - -s main
 #  program: /bin/bash
 #  args:
-#    - --login
+#    - --login  
 
 # Startup directory
 #
