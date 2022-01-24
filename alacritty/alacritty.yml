@@ -431,7 +431,7 @@ shell:
   args:
     - -l
     - -c
-    - "tmux attach || tmux"
+    - "tmux new -As0"
 #  program: /bin/bash
 #  args:
 #    - --login
