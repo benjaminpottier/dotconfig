@@ -13,6 +13,7 @@ syntax on
 call plug#begin()
 Plug 'Mofiqul/dracula.nvim'
 Plug 'tpope/vim-sensible'
+Plug 'rust-lang/rust.vim'
 call plug#end()
 
 colorscheme dracula
